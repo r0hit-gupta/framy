@@ -66,7 +66,7 @@ const framyTheme = FramyTheme();
 /// }
 ///
 class FramyWidget extends FramyAnnotation {
-  final String groupName;
+  final String? groupName;
   final bool isPage;
 
   const FramyWidget({this.isPage = false, this.groupName});
